@@ -1,0 +1,22 @@
+﻿body {
+      background-color: #DADADA;
+    }
+    body > .grid {
+      height: 100%;
+    }
+    .image {
+      margin-top: -100px;
+    }
+    .column {
+        max-width: 450px;
+    }
+    .bigColumn {
+        max-width: 625px !important;
+    }
+    .centras {
+        width: 50%;
+        margin: 0 auto; 
+    }
+    .inline.fields {
+        margin: 0 !important;
+    }
