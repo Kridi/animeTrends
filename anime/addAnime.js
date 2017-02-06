@@ -3,7 +3,8 @@
         var anime = {
             name: $("#names").val(),
             episodes: $("#ep").val(),
-            genre: $("#genre").val()
+            genre: $("#genre").val(),
+            picture: $("#pic").val()
         }
         console.log(anime);
 

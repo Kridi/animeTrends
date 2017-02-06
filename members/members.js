@@ -12,5 +12,5 @@ function addAllLines(members) {
 
 
 function addLine(member) {
-    $("tbody").append("<tr><td>" + member.name + "</td><td>" + member.date + "</td><td>" + member.email + "</td><td>" + member.nick + "</td></tr>");
-}
+    $("tbody").append("<tr><td>" + member.name + "</td><td>" + member.date + "</td><td>" + member.email + "</td><td>" + member.nick + "</td></tr>" );
+    }

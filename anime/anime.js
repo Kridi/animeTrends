@@ -15,6 +15,11 @@ function addLine(anime) {
     $("tbody").append(`
         <tr>
             <td>
+                <h4 class ="ui image header">
+                    <img src="${anime.picture}" class ="ui mini rounded image">
+                </h4>
+            </td>
+            <td>
                 ${anime.name}
             </td>
             <td>
