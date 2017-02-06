@@ -1,5 +1,5 @@
 ﻿$(document).ready(function () {
-    $.get("members.json", function (data) {
+    $.get("http://localhost:9000/api/members", function (data) {
         addAllLines(data);
     });
 });
@@ -12,5 +12,5 @@ function addAllLines(members) {
 
 
 function addLine(member) {
-    $("tbody").append("<tr><td>" + member.name + "</td><td>" + member.date + "</td><td>" + member.email + "</td></tr>");
+    $("tbody").append("<tr><td>" + member.name + "</td><td>" + member.date + "</td><td>" + member.email + "</td><td>" + member.nick + "</td></tr>");
 }
